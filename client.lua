@@ -69,7 +69,7 @@ CreateThread(function ()
                         criarobjeto(caixas[selecionado])
                         SetNewWaypoint(caixas[selecionado][1],caixas[selecionado][2])
                         CriandoBlip(finalemp)
-                        TriggerEvent("nyo_notify", "#000000", "suceso", "Você entrou em serviço.", 5000)
+                       TriggerEvent("Notify", "sucesso", "Você entrou em serviço.", 5000)
                     end
                 end
             end
@@ -107,7 +107,7 @@ CreateThread(function ()
                 RemoveBlip(blip)
                 DeleteEntity(caixa)
                 deleteCar(nveh)
-                TriggerEvent("nyo_notify", "#000000", "aviso", "Você saiu de serviço.", 5000)
+                TriggerEvent("Notify", "aviso", "Você saiu de serviço.", 5000)
             end
         end
         Wait(sleep)
