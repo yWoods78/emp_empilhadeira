@@ -84,7 +84,7 @@ CreateThread(function ()
             end
         elseif trabalhando and comcarro then
             local g = GetEntityCoords(caixa)
-			local h = Vdist(finalemp.x,finalemp.y,finalemp.z,g.x,g.y,g.z)
+	    local h = Vdist(finalemp.x,finalemp.y,finalemp.z,g.x,g.y,g.z)
             sleep = 4
             DrawMarker(0, g.x,g.y,g.z+2.0, 0, 0, 0, 0, 0, 0, 0.8, 0.8, 0.8, 255, 255, 255, 200, 1, 0, 0, 0)
             if h <= 10.0 then
