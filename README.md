@@ -15,4 +15,4 @@ local pagamento = math.random(30, 50)
 Isso configurará o pagamento como um valor aleatório entre R$ 30 e R$ 50 por empilhamento, proporcionando variação no pagamento.
 
 ## 🚀 Autor
-Este script foi criado por [Nome do Autor](https://discord.gg/MB6kzQwXbE).
+Este script foi criado por [DEV2UP](https://discord.gg/MB6kzQwXbE).
